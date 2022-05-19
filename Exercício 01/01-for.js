@@ -1,0 +1,1 @@
+window.prompt('É impossível fazer esse exercício utilizando FOR.')

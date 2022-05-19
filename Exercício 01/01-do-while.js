@@ -7,7 +7,7 @@ function login() {
 }
 
 login();
-while (userName === userSenha) {
+do {
     window.alert("A senha não pode ser a mesma que o nome de usuário!");
     userSenha = window.prompt("Digite novamente sua senha.");
-}
+} while (userName === userSenha);
